@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppNumeroDaSorte.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="MainPage">
+    <VerticalStackLayout Background="White">
+        <Image
+            Margin="0,50,0,0"
+            HeightRequest="115"
+            Source="logo_green.png"
+            WidthRequest="74" />
+        <Label
+            Margin="20"
+            HorizontalOptions="Center"
+            Text="Número da Sorte"
+            TextColor="Green"
+            VerticalOptions="Center" />
+        <Button
+            Margin="20"
+            Padding="30,12"
+            CornerRadius="23"
+            Text="Gerar número da sorte" />
+
+    </VerticalStackLayout>
+</ContentPage>
